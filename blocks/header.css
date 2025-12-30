@@ -1,0 +1,12 @@
+.header {
+  padding-top: 34px;
+}
+.header__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.header__logo {
+  object-fit: contain;
+}
