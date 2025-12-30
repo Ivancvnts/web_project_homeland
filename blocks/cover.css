@@ -4,7 +4,6 @@
 
 .cover__container {
   max-width: 984px;
-  width: 90%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -32,16 +31,28 @@
 }
 
 .cover__image {
-  object-fit: contain;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     font-size: 75px;
   }
+
+  .cover__container {
+    gap: 25px;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .cover {
+    padding-top: 50px;
+  }
+
+  .cover__container {
+    gap: 16px;
+  }
+
   .cover__title {
     font-size: 40px;
   }
