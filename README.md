@@ -1,6 +1,6 @@
 # Tripleten web_project_homeland
 
-Proyecto 5: De patria a patria
+Proyecto: De patria a patria
 
 En este proyecto se muestran algunas de las ciudades natales de algunos empleados de TripleTen.
 
